@@ -7,7 +7,7 @@ function App() {
   const [name,setName] = useState("")
   const [price,setPrice] = useState("")
 
-  const API = "http://127.0.0.1:8000"
+  const API = " https://fastapi-react-product-app.onrender.com"
 
   // fetch products
   const loadProducts = async () =>{
